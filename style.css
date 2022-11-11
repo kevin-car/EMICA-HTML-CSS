@@ -1,11 +1,42 @@
 body{
-    background-image: url("./images/fond.webp");
+    background-image: url("https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
     min-height: 100vh;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: 80%;
 }
 
 header {
     display: flex;
     justify-content: center;
+    font-weight: 800;
+}
+
+.spinner-border{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .spinner-border{
+        display: none;
+    }
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    border: 2px solid rgb(119, 95, 93);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.texte-presentation {
+    font-weight: 500;
 }
