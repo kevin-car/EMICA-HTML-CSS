@@ -1,6 +1,7 @@
 .texte-presentation {
     width: 100%;
 }
+
 .content {
     display: flex;
     flex-direction: column;
@@ -10,6 +11,7 @@
     margin-left: 27%;
     margin-right: 27%;
 }
+
 .content p {
     text-align: justify;
     padding-left: 50px;
@@ -23,4 +25,9 @@
 img {
     width: max-content;
     height: max-content;
+    width: 100% !important;
+}
+
+.carousel-inner {
+    width: 100%;
 }
