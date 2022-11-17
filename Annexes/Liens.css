@@ -8,6 +8,8 @@ h2 {
 .titre {
     margin-bottom: 100px;
     width: 100%;
+    margin-top: 20px;
+    text-align: center;
 }
 
 section {
@@ -15,4 +17,14 @@ section {
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+section {
+    margin-left: 25%;
+    width: 50%;
 }

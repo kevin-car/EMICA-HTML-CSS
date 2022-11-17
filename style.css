@@ -28,7 +28,7 @@ header {
 .intro {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 60px;
     border: 2px solid rgb(119, 95, 93);
     width: 60%;
     margin-left: 20%;
@@ -39,4 +39,14 @@ header {
 
 .texte-presentation {
     font-weight: 500;
+}
+
+.bloc-image-accueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+}
+.bloc-image-accueil img {
+    border-radius: 20px;
 }
