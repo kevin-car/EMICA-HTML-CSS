@@ -5,6 +5,7 @@ body{
     margin-left: 10% !important;
     margin-right: 10% !important;
     width: 80%;
+    height: 100;
 }
 
 header {
@@ -49,4 +50,43 @@ header {
 }
 .bloc-image-accueil img {
     border-radius: 20px;
+}
+
+/* Footer  */
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    bottom: 0;
+}
+
+footer div {
+    border: 2px solid rgb(119, 95, 93);
+    border-radius: 20px;
+    width: 30%;
+    background-color: rgb(46, 94, 133);
+}
+
+footer div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer a {
+    color: antiquewhite;
+    cursor: progress;	
 }

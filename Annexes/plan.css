@@ -1,0 +1,34 @@
+
+
+.elements ul li {
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid rgb(119, 95, 93);
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.elements ul {
+    padding: 0;
+    width: 100%;
+}
+
+.elements h2, a{
+    text-align:center;
+}
