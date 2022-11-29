@@ -22,3 +22,8 @@
 .bloc-image img {
     width: 50%;
 }
+
+.footerAPropos {
+    position: absolute;
+    bottom: 0 !important;
+}
