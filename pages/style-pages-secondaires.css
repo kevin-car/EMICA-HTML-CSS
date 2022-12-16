@@ -37,4 +37,15 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 560px;
+    height: 315px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .content {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
 }
